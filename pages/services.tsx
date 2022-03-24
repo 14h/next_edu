@@ -2,7 +2,6 @@ import type { NextPage } from 'next';
 import Head from 'next/head';
 import { Footer } from '../components/footer';
 import { Animated } from '../components/animated';
-import Image from 'next/image';
 import {Header} from "../components/header";
 
 const Services: NextPage = () => {
@@ -43,7 +42,7 @@ const Services: NextPage = () => {
                                 <Animated delay={75} className='w-48 border-2 border-solid border-accent-8'/>
                                 <br/>
                                 <Animated delay={75} className='lg:hidden py-8'>
-                                    <Image className='rounded-lg' src="/1.jpeg" alt="next Logo" width={560} height={380} />
+                                    {/*<Image className='rounded-lg' src="/1.jpeg" alt="next Logo" width={560} height={380} />*/}
                                 </Animated>
                                 <Animated delay={300} className='font-thin text-xl '>
                                     At Next Education, we specialize in the analytical characterization and identification of unscheduled and understudied psychopharmacological agents using nuclear magnetic resonance and infrared spectroscopic techniques.
@@ -55,13 +54,13 @@ const Services: NextPage = () => {
                                 </Animated>
                             </div>
                             <Animated delay={75} className='hidden lg:block w-1/2 p-8'>
-                                <Image className='rounded-lg' src="/1.jpeg" alt="next Logo" width={560} height={380} />
+                                {/*<Image className='rounded-lg' src="/1.jpeg" alt="next Logo" width={560} height={380} />*/}
                             </Animated>
                         </div>
                         <Animated delay={75} className='w-1/2 mx-auto border-4 border-solid border-accent-8'/>
                         <div className='flex flex-col lg:flex-row justify-between h-full p-8 lg:p-16'>
                             <Animated delay={75} className='hidden lg:block w-1/2 p-8'>
-                                <Image className='rounded-lg' src="/2.jpeg" alt="next Logo" width={560} height={380} />
+                                {/*<Image className='rounded-lg' src="/2.jpeg" alt="next Logo" width={560} height={380} />*/}
                             </Animated>
                             <div className='lg:w-1/2 text-white'>
                                 <Animated delay={75} className='font-thin text-4xl'>
@@ -71,7 +70,7 @@ const Services: NextPage = () => {
                                 <Animated delay={75} className='w-48 border-2 border-solid border-accent-8'/>
                                 <br/>
                                 <Animated delay={75} className='lg:hidden py-8'>
-                                    <Image className='rounded-lg' src="/2.jpeg" alt="next Logo" width={560} height={380} />
+                                    {/*<Image className='rounded-lg' src="/2.jpeg" alt="next Logo" width={560} height={380} />*/}
                                 </Animated>
                                 <Animated delay={300} className='font-thin text-xl'>
                                     We are dedicated to assisting harm reduction associations, frontline paramedics and forensic teams in their effort to save lives and keep our community members safe.
@@ -92,7 +91,7 @@ const Services: NextPage = () => {
                                 <Animated delay={75} className='w-48 border-2 border-solid border-accent-8'/>
                                 <br/>
                                 <Animated delay={75} className='lg:hidden py-8'>
-                                    <Image className='rounded-lg' src="/3.jpeg" alt="next Logo" width={560} height={380} />
+                                    {/*<Image className='rounded-lg' src="/3.jpeg" alt="next Logo" width={560} height={380} />*/}
                                 </Animated>
                                 <Animated delay={300} className='font-thin text-xl'>
                                     As part of our harm reduction efforts,
@@ -102,7 +101,7 @@ const Services: NextPage = () => {
                                 </Animated>
                             </div>
                             <Animated delay={75} className='hidden lg:block w-1/2 p-8'>
-                                <Image className='rounded-lg' src="/3.jpeg" alt="next Logo" width={560} height={380} />
+                                {/*<Image className='rounded-lg' src="/3.jpeg" alt="next Logo" width={560} height={380} />*/}
                             </Animated>
                         </div>
                     </div>
