@@ -14,7 +14,7 @@ export const Header = ({selected}: TProps) => {
                 <div className='flex flex-row justify-center items-center hidden lg:flex'>
                     <Link href='/'>
                         <div className={`p-8 transition-all ease-in duration-75 hover:text-accent-8 cursor-pointer text-xl ${selected === 'home' ? 'text-accent-8' : ''}`}>
-                            Next Education
+                            Next Education1
                         </div>
                     </Link>
 
